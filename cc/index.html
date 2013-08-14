@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://www.consulenza-web.com/jquery/touchpanview/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+		
+		<title>jQuery TouchPanView - jQuery Touch Pan View and Image Zoom Plugin - jQuery Plugin</title>
+		<meta name="description" content="Touch Pan View jQuery plugin allow to navigate a big image in a small viewport with both desktop and mobile devices like iPad and Android. Add support to pinch to zoom gestoure.">
+		
+		
+		<!-- Dipendenze e Layout di esempio -->
+		<link rel="stylesheet" href="example.css">
+		<script src="jquery/jquery.js"></script>
+		<script src="jquery/jquery.easing.js"></script>
+		
+		
+		
+		
+		<!-- Dependencies -->
+		<script src="jquery/jquery.jgestures.js"></script>
+		<!--<script src="jquery.doubletap.js"></script>-->
+		
+		<!-- Plugin's Assets -->
+		<link rel="stylesheet" href="jquery.touchpanview.css">
+		<script src="jquery/jquery.touchpanview.js"></script>
+		
+		
+		
+		<!-- Foglio di stile funzionale all'esempio -->
+		<style type="text/css">
+		#example {
+			border:1px dashed #444;
+			padding:20px;
+			background: #ffffe0;
+			min-height: 200px;
+		}
+		
+		#log {
+			position: fixed;
+			top:10px;
+			right:10px;
+			background: #dedede;
+			border:1px solid #333;
+			border-radius:5px;
+			padding:5px;
+			box-shadow: 0 0 5px #aaa;
+			list-style:none;
+		}
+		</style>
+		
+		
+		
+		<!-- Script Funzionale -->
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+			
+
+			/**
+			 *
+			 */
+			jQuery('#village img').touchPanView({
+				width: 	600,
+				height: 300,
+				startZoomedOut: true,
+					
+				zoomIn: 			'#village .zoom-in',
+				zoomOut:			'#village .zoom-out',
+				zoomFit:			'#village .zoom-fit',
+				zoomFull:			'#village .zoom-full'
+			});
+			
+
+			
+	
+		});
+		</script>
+		
+		
+	</head>
+	<body>
+		
+		
+		
+				
+		<div class="section" id="example">
+
+			<div id="village">
+				
+				<p><div class="touchpanview-wrap" style="width: 600px; height: 300px;"><div class="touchpanview-pan"><img src="test.jpg" width="1920" height="1080"></div></div></p>
+				
+				<p>
+					<a class="zoom-in">ZoomIn</a> | 
+					<a class="zoom-out">ZoomOut</a> | 
+					<a class="zoom-full">1:1</a> | 
+					<a class="zoom-fit">0%</a>
+				</p>
+			</div>
+			
+		
+		
+		<form id="imagecrop" action="/cc/crop.php" method="post" onsubmit="return checkCoords();">
+			<input type="text" id="cropheight" name="cropheight" />
+			<input type="text" id="cropwidth" name="cropwidth" />
+			<input type="text" id="croptop" name="croptop" />
+			<input type="text" id="cropleft" name="cropleft" />
+			<input type="text" id="filename" name="filename" value="test.jpg" />
+			<input id="imagecropsubmit" type="submit" value="Crop image" />
+		</form>
+
+	
+	
+</body></html>

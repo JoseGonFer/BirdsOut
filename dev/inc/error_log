@@ -1,0 +1,29 @@
+[01-Aug-2013 07:41:30 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 36
+[01-Aug-2013 07:41:47 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 37
+[01-Aug-2013 07:41:48 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 37
+[01-Aug-2013 07:42:07 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 29
+[01-Aug-2013 07:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 29
+[01-Aug-2013 07:42:30 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 37
+[01-Aug-2013 07:42:32 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 37
+[01-Aug-2013 07:42:39 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 18
+[01-Aug-2013 07:42:42 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/outbirds/public_html/dev/inc/crop.php on line 18
+[01-Aug-2013 08:26:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:26:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:26:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:26:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:28:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:28:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:28:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:28:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/outbirds/public_html/dev/inc/crop.php on line 8
+[01-Aug-2013 08:32:59 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/outbirds/public_html/dev/inc/crop.php on line 15
+[01-Aug-2013 08:32:59 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/outbirds/public_html/dev/tmp/df4ee2056f86e6fb552b664ce09ec16d.png' is not a valid JPEG file in /home/outbirds/public_html/dev/inc/crop.php on line 15
+[01-Aug-2013 08:32:59 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/outbirds/public_html/dev/inc/crop.php on line 19
+[01-Aug-2013 08:33:57 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:33:57 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/outbirds/public_html/dev/tmp/35bb2f4063270d1f9288a085eb97acee.png' is not a valid JPEG file in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:33:57 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/outbirds/public_html/dev/inc/crop.php on line 20
+[01-Aug-2013 08:35:57 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:35:57 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/outbirds/public_html/dev/tmp/1c8c853910a2ef39fed7c4f4f5b4bbc7.png' is not a valid JPEG file in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:35:57 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/outbirds/public_html/dev/inc/crop.php on line 20
+[01-Aug-2013 08:36:26 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:36:26 America/Chicago] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '/home/outbirds/public_html/dev/tmp/1c8c853910a2ef39fed7c4f4f5b4bbc7.png' is not a valid JPEG file in /home/outbirds/public_html/dev/inc/crop.php on line 16
+[01-Aug-2013 08:36:26 America/Chicago] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/outbirds/public_html/dev/inc/crop.php on line 20
