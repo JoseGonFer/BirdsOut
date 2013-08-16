@@ -21,7 +21,7 @@ class Tags {
 		/* SQL Request to see if user credentials is correct */
 		global $db;
 		try {
-			$result = $db->exec("SELECT tags_id FROM UserTags WHERE user_id = $this->uid");
+			$result = $db->exec("SELECT tag_id FROM UserTags WHERE user_id = $this->uid");
 			if ($result) {
 				return $result;
 			}
